@@ -1,9 +1,11 @@
 
 
 
+
+
 import React, { useMemo } from 'react';
-import type { Filters, FilterType } from '/types.ts';
-import { allRestaurants } from '/constants.ts';
+import type { Filters, FilterType } from '../types.ts';
+import { allRestaurants } from '../constants.ts';
 
 interface FilterPanelProps {
   filters: Filters;

@@ -1,9 +1,11 @@
 
 
 
+
+
 import React from 'react';
-import type { Restaurant } from '/types.ts';
-import RestaurantCard from '/components/RestaurantCard.tsx';
+import type { Restaurant } from '../types.ts';
+import RestaurantCard from './RestaurantCard.tsx';
 
 interface RestaurantListProps {
   restaurants: Restaurant[];
