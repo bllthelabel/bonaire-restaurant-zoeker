@@ -1,10 +1,11 @@
 
+
 import React, { useState, useMemo, useCallback } from 'react';
-import { allRestaurants } from './constants';
-import type { Restaurant, Filters, FilterType } from './types';
-import FilterPanel from './components/FilterPanel';
-import RestaurantList from './components/RestaurantList';
-import SelectedFilters from './components/SelectedFilters';
+import { allRestaurants } from './constants.ts';
+import type { Restaurant, Filters, FilterType } from './types.ts';
+import FilterPanel from './components/FilterPanel.tsx';
+import RestaurantList from './components/RestaurantList.tsx';
+import SelectedFilters from './components/SelectedFilters.tsx';
 
 const initialFilters: Filters = {
   name: '',

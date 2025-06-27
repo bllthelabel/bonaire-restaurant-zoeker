@@ -1,6 +1,7 @@
 
+
 import React, { useMemo } from 'react';
-import type { Filters, FilterType } from '../types';
+import type { Filters, FilterType } from '../types.ts';
 
 interface SelectedFiltersProps {
   filters: Filters;
