@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDOM from 'https://esm.sh/react-dom@19.1.0/client';
+import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
+import './index.css';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
