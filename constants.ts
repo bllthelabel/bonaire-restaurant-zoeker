@@ -1,5 +1,6 @@
 
-import { Restaurant } from './types.ts';
+
+import { Restaurant } from '/types.ts';
 
 export const allRestaurants: Restaurant[] = [
   {

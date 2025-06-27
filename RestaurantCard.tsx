@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { GoogleGenAI } from '@google/genai';
-import type { Restaurant } from '../types.ts';
-import StarRating from './StarRating.tsx';
+import type { Restaurant } from '/types.ts';
+import StarRating from '/components/StarRating.tsx';
 
 // Initialize the Gemini client. Assume process.env.API_KEY is available.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
